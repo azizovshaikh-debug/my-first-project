@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Калькулятор блюда</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Калькулятор себестоимости блюда</h2>
+        <input type="number" id="ingredients" placeholder="Себестоимость продуктов (₽)">
+        <input type="number" id="markup" placeholder="Наценка (%)">
+        <button onclick="calculate()">Рассчитать цену</button>
+        <div class="result">
+            <p>Цена для гостя: <span id="finalPrice">0</span> ₽</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
